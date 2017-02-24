@@ -1,0 +1,5 @@
+OTAP,
+ontwikkelings omgeving
+Test omgeving
+Acceptatie omgeving
+Productie omgeving
