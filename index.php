@@ -15,7 +15,7 @@
 
 
         <div class="col-3">
-            <img src="http://placehold.it/300x150">
+            <img src="./images/natuur.jpg">
         </div>
 
         <div class="col-6">
@@ -66,7 +66,7 @@
           <div class="col-3">
 
           </div>
-        </div>  
+        </div>
 </section>
 
 

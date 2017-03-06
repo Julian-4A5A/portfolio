@@ -1,21 +1,60 @@
-
+<script type="text/javascript">
+function goBack() {
+  window.history.back();
+}
+</script>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Menu</title>
     <link rel="stylesheet" href="Style.css">
+    <style media="screen">
+    .container {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color:#ce616e;
+        margin: 6px 0;
+        transition: 0.2s;
+
+    }
+
+    .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+
+    .bar2 {opacity: 0;}
+
+    .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    </style>
     <script src="Javascript.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body id="Menu_Page">
 <section class="row">
-      <div class="col-3">
-          <div class="">
-            <span class="icon"><a href="./">&#10006;</a></span>
+
+        <div class="header">
           </div>
+        <div class="col-2" >
+
+
+          <div class="container" onclick="goBack()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
       </div>
-      <div class="col-6 " >
+      <div class="col-8 " >
         <div class="base">
           <img src="http://placehold.it/100x100" class="MenuHeadImage">
           <h3>Julian van Dijk</h3>
@@ -23,7 +62,7 @@
         </div>
 
       </div>
-      <div class="col-3 clock">
+      <div class="col-2 clock">
         <?php require 'Clock.php'; ?>
       </div>
 

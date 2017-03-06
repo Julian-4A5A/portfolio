@@ -1,4 +1,4 @@
-<?php include 'Header.php'; ?>
+
   <div class="col-12">
       <img src="http://placehold.it/300x150">
   </div>

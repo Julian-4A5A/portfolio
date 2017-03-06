@@ -15,5 +15,9 @@ function loadpage(href, callBack){
             }
     function callData(result){
         console.log(result);
-        return document.getElementById( 'content').innerHTML = result.response;
+        return document.getElementById( 'base').innerHTML = result.response;
+    }
+
+    function menu(x) {
+        x.classList.toggle("change");
     }

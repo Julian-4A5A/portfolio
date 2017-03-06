@@ -12,7 +12,7 @@
         <?php include 'Header.php'; ?>
       </div>
       <div id="base">
-
+        <p id="loader"></p>
       </div>
         <div class="col-4">
           <div class="Title">
