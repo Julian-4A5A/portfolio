@@ -8,11 +8,11 @@
     <script src="Javascript.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
-  <body>
+  <body id="Menu_Page">
 <section class="row">
       <div class="col-3">
           <div class="">
-            <span class="icon"><a href="index.php">&#10006;</a></span>
+            <span class="icon"><a href="./">&#10006;</a></span>
           </div>
       </div>
       <div class="col-6 " >
@@ -28,7 +28,7 @@
       </div>
 
       <div class="col-6 right" >
-        <h1><a href="index.php">Home</a></h1>
+        <h1><a href="index.php" >Home</a></h1>
         <p>De algemene informatie</p>
       </div>
       <div class="col-6 left">

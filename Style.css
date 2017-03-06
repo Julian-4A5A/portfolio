@@ -34,7 +34,7 @@ input[type=text], select, textarea {
 
 }
 .button {
-    background-color: green; 
+    background-color: green;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -77,5 +77,13 @@ input[type=text], select, textarea {
     }
     .base{
       text-align: center;
+    }
+    #Menu_Page{
+      background-color: #293449;
+
+    }
+    a{
+      color:#ce616e;
+
     }
 }

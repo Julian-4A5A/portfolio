@@ -11,6 +11,9 @@
   <body>
 <section class="row">
       <?php include 'Header.php'; ?>
+      <div id="base">
+
+
         <div class="col-3">
             <img src="http://placehold.it/300x150">
         </div>
@@ -63,6 +66,7 @@
           <div class="col-3">
 
           </div>
+        </div>  
 </section>
 
 
