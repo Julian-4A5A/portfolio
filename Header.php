@@ -28,7 +28,7 @@
   <div class="header">
   <div class="col-2" >
     <a href="menu.php">
-    <div class="container" onclick="menu(this)">
+    <div class="container" onclick="document.getElementById('base').innerHTML = loadpage('menu.php', callData)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>

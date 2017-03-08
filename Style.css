@@ -43,6 +43,30 @@ input[type=text], select, textarea {
     display: inline-block;
     font-size: 16px;
 }
+#button{
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-radius: 3px;
+    color: #2577ba;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: auto;
+    line-height: 1;
+    overflow: hidden;
+    padding: 13px 30px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+    width: auto;
+
+}
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -85,5 +109,14 @@ input[type=text], select, textarea {
     a{
       color:#ce616e;
 
+    }
+    .Text{
+      color: #4d4d4d;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 15px;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.7333;
+      text-align: justify;
+}
     }
 }

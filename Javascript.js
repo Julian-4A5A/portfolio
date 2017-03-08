@@ -21,3 +21,7 @@ function loadpage(href, callBack){
     function menu(x) {
         x.classList.toggle("change");
     }
+
+    function goBack() {
+      window.history.back();
+    }

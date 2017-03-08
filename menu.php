@@ -1,10 +1,8 @@
 <script type="text/javascript">
-function goBack() {
-  window.history.back();
-}
+
 </script>
 <!DOCTYPE html>
-<html>
+<html id="Menu_Page">
   <head>
     <meta charset="utf-8">
     <title>Menu</title>
@@ -39,7 +37,7 @@ function goBack() {
     <script src="Javascript.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
-  <body id="Menu_Page">
+  <body >
 <section class="row">
 
         <div class="header">
@@ -75,12 +73,13 @@ function goBack() {
         <p>De algemen informatie van projecten</p>
       </div>
       <div class="col-6 right" >
-        <h1><a href="Contact.php">Contact</a></h1>
-        <p>De algemen informatie over mijn contact</p>
-      </div>
-      <div class="col-6 left" >
         <h1><a href="about.php">About</a></h1>
         <p>De algemen informatie van mij zelf</p>
+        </div>
+      <div class="col-6 left" >
+        <h1><a href="Contact.php">Contact</a></h1>
+        <p>De algemen informatie over mijn contact</p>
+
       </div>
 </section>
 
