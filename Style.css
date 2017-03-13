@@ -33,8 +33,11 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
 
 }
+#footer{
+
+}
 .button {
-    background-color: green; 
+    background-color: green;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -55,6 +58,15 @@ input[type=text], select, textarea {
     text-align: center;
 }
 @media only screen and (min-width: 768px) {
+
+
+}
+@media only screen and (min-width: 992px) {
+
+
+
+}
+@media only screen and (min-width: 1200px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}

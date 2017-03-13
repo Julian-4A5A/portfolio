@@ -10,7 +10,7 @@
 
       <section class="row">
         <?php include 'Header.php'; ?>
-
+<?php require 'footer.php'; ?>
 </section>
 
 

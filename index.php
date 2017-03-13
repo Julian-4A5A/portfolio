@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Style.css">
     <script src="Javascript.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="canonical" href="https://alexcican.com/post/single-post">
   </head>
   <body>
 <section class="row">
@@ -63,6 +64,8 @@
           <div class="col-3">
 
           </div>
+
+          <?php require 'footer.php'; ?>
 </section>
 
 

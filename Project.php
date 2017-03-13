@@ -63,6 +63,7 @@
             <button type="button" name="button">View More</button>
           </div>
         </div>
+        <?php require 'footer.php'; ?>
 </section>
 
 
