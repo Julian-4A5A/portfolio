@@ -12,58 +12,52 @@
   <body>
 <section class="row">
       <?php include 'Header.php'; ?>
-        <div class="col-3">
-            <img src="http://placehold.it/300x150">
+        <div class="col-3 aboutimg">
+
         </div>
 
-        <div class="col-6">
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
+        <div class="col-9">
+            <h4>About</h4>
+            <p class="Hometext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
               smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
               m veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
               modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu
               giat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <button type="button" name="button">View more</button>
         </div>
-        <div class="col-3">
-
-        </div>
 
 
-        <div class="col-3">
 
-        </div>
-        <div class="col-6">
-          <h2></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
+
+        <div class="col-9">
+          <h4>Projects</h4>
+          <p class="Hometext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
             or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptat
             e velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
-            pidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            <button type="button" name="button">View more</button></p>
+            pidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" name="button">View more</button>
         </div>
-        <div class="col-3">
-          <img src="http://placehold.it/300x150">
+        <div class="col-3 projectimg">
+
         </div>
 
-        <div class="col-3">
-          <img src="http://placehold.it/300x150">
+        <div class="col-3 contactimg">
+
         </div>
-            <div class="col-6">
-              <h2></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod te
+            <div class="col-9">
+              <h4>Contact</h4>
+              <p class="Hometext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod te
                 mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con
                  sequat. Duis aute irure dolor in reprehend
                 erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu
                 r sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mo
-                llit anim id est laborum.
-              <button type="button" name="button">View more</button></p>
+                llit anim id est laborum.</p>
+              <button type="button" name="button">View more</button>
           </div>
-          <div class="col-3">
 
-          </div>
 
           <?php require 'footer.php'; ?>
 </section>

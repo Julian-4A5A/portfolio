@@ -6,6 +6,6 @@
   <div class="col-8">
     <img src="http://placehold.it/400x200">
   </div>
-  <div class="col-2" >
+  <div class="col-2" id="clock">
     <p>clock</p>
   </div>

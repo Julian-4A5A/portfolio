@@ -43,7 +43,7 @@
         <h1><a href="about.php">About</a></h1>
         <p>De algemen informatie van mij zelf</p>
       </div>
-      <?php require 'footer.php'; ?>
+      
 </section>
 
 

@@ -1,6 +1,6 @@
 <div class="col-12" id="footer">
   <div class="col-4">
-    <h3>Links</h3>
+    <h2>Links</h2>
     <ul>
       <li><a href="./">Home</a></li>
       <li><a href="about.php">About</a></li>
@@ -9,7 +9,7 @@
     </ul>
   </div>
   <div class="col-4">
-    <h3>Talen</h3>
+    <h2>Talen</h2>
     <ul>
       <li>HTML5</li>
       <li>CSS3</li>
