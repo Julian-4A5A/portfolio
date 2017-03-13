@@ -1,17 +1,20 @@
 
 body{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 * {
     box-sizing: border-box;
 }
-
+.row{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .row::after {
     content: "";
     clear: both;
     display: table;
+
 }
 
 .MenuHeadImage{
@@ -53,10 +56,12 @@ input[type=text], select, textarea {
 .Hometext{
   text-align: justify;
   padding-right: 25%;
+  padding-left: 25%;
+
 }
 /* For mobile phones: */
 [class*="col-"] {
-    width: 100%;
+    width: 95%;
     border: solid 1px black;
     text-align: center;
 
@@ -89,7 +94,10 @@ li a {
   text-decoration: none;
   color: #000;
   display: block;
-  width: 200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
 
   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -105,6 +113,29 @@ li a:hover {
 #clock{
   display: none;
 }
+/* Home afbeeldingen in about projects en contact*/
+.aboutimg{
+  background-image: url(images/Boom.jpg);
+  height: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projectimg{
+  background-image: url(images/Boom.jpg);
+  height: 150px;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactimg{
+  background-image: url(images/Boom.jpg);
+  height: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media only screen and (min-width: 768px) {
 
 
@@ -115,6 +146,9 @@ li a:hover {
 
 }
 @media only screen and (min-width: 1200px) {
+  li a{
+    width: 200px;
+  }
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -143,18 +177,29 @@ li a:hover {
       height: 174px;
       width: 300px;
       margin: 5px;
+      float: left;
+      margin-right: 10%;
     }
     .projectimg{
       background-image: url(images/Boom.jpg);
       height: 174px;
       width: 300px;
       margin: 5px;
+      float: right;
+      margin-left: 10%;
     }
     .contactimg{
       background-image: url(images/Boom.jpg);
       height: 174px;
       width: 300px;
       margin: 5px;
+      float: left;
+      margin-right: 10%;
+    }
+    .Hometext{
+      padding-left: 5%;
+      padding-right: 5%;
+
     }
 
 }
