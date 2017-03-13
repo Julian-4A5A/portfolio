@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="stylereset.css">
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Julian van Dijk</title>
@@ -18,7 +18,7 @@
           <div class="aboutimg">
 
           </div>
-            <h4>About</h4>
+            <h2>About</h2>
             <p class="Hometext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
               smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
               m veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
@@ -34,7 +34,7 @@
           <div class="projectimg">
 
           </div>
-          <h4>Projects</h4>
+          <h2>Projects</h2>
           <p class="Hometext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
             or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -50,7 +50,7 @@
               <div class="contactimg">
 
               </div>
-              <h4>Contact</h4>
+              <h2>Contact</h2>
 
               <p class="Hometext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod te
                 mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
