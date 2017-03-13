@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="stylereset.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Julian van Dijk</title>
     <link rel="stylesheet" href="Style.css">
     <script src="Javascript.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="canonical" href="https://alexcican.com/post/single-post">
   </head>
   <body>
 <div class="row">

@@ -1,6 +1,6 @@
 
 body{
-
+ background-color: #f5f5f0;
 }
 * {
     box-sizing: border-box;
@@ -16,6 +16,7 @@ body{
     display: table;
 
 }
+
 
 .MenuHeadImage{
   border-radius: 50%;
@@ -136,6 +137,21 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+.Meimg{
+  margin-right: 10%;
+  width: 50%;
+  height: 50%;
+}
+.Schoolimg{
+  margin-right: 10%;
+  width: 50%;
+  height: 50%;
+}
+.VrijeTijdimg{
+  margin-right: 10%;
+  width: 50%;
+  height: 50%;
+}
 @media only screen and (min-width: 768px) {
 
 
@@ -196,6 +212,7 @@ li a:hover {
       float: left;
       margin-right: 10%;
     }
+
     .Hometext{
       padding-left: 5%;
       padding-right: 5%;
