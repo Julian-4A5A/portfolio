@@ -1,3 +1,6 @@
+<div class="row">
+
+
 <div class="col-12" id="footer">
   <div class="col-4">
     <h2>Links</h2>
@@ -23,4 +26,5 @@
   <div class="col-12">
     <p class="copyright"> © Copyright 2017 - Portfolio Julian van Dijk</p>
   </div>
+</div>
 </div>

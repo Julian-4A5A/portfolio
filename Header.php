@@ -25,10 +25,11 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
 </style>
-  <div class="header">
+
+  <div class="header row" >
   <div class="col-2" >
-    <a href="menu.php">
-    <div class="container" onclick="document.getElementById('base').innerHTML = loadpage('menu.php', callData)">
+    <a onclick="openNav()">
+    <div class="container" >
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>

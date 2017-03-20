@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html >
   <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Julian van Dijk</title>
@@ -10,19 +11,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
-<div class="row">
-      <?php include 'Header.php'; ?>
-<<<<<<< HEAD
+    <?php include 'menu.php'; ?>
+    <?php include 'Header.php'; ?>
+
+<section class="row">
+
+
       <div id="base">
-
-
-        <div class="col-3">
-            <img src="./images/natuur.jpg">
-        </div>
-=======
->>>>>>> origin/master
-
-
         <div class="col-12">
           <div class="aboutimg">
 
@@ -33,7 +28,7 @@
               m veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
               modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu
               giat nulla pariatur. </p>
-              <button type="button" name="button">View more</button>
+              <button onclick="loadpage('about.php', callData)" id="button">View more</button>
         </div>
 
 
@@ -49,7 +44,7 @@
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptat
             e velit esse cillum dolore eu fugiat nulla pariatur. </p>
-            <button type="button" name="button">View more</button>
+            <button onclick="loadpage('project.php', callData)" id="button">View more</button>
 
         </div>
 
@@ -66,18 +61,17 @@
                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con
                  sequat. Duis aute irure dolor in reprehend
                 erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-              <button type="button" name="button">View more</button>
+              <button onclick="loadpage('contact.php', callData)" id="button">View more</button>
           </div>
 
-<<<<<<< HEAD
+
           </div>
         </div>
-</section>
-=======
 
-          <?php require 'footer.php'; ?>
-</div>
->>>>>>> origin/master
+
+
+    </section>
+    <?php require 'footer.php'; ?>
 
 
   </body>

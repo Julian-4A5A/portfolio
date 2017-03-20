@@ -38,7 +38,8 @@ input[type=text], select, textarea {
 
 }
 #footer{
-
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
     background-color: green;
@@ -87,9 +88,14 @@ input[type=text], select, textarea {
     padding: 15px;
 }
 .Hometext{
+  padding-right: 5%;
+  padding-left: 5%;
+  color: #4d4d4d;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7333;
   text-align: justify;
-  padding-right: 25%;
-  padding-left: 25%;
 
 }
 /* For mobile phones: */
@@ -170,19 +176,83 @@ li a:hover {
   margin-right: auto;
 }
 .Meimg{
-  margin-right: 10%;
-  width: 50%;
-  height: 50%;
+
+  width: 150px;
+  height: 150px;
 }
 .Schoolimg{
-  margin-right: 10%;
-  width: 50%;
-  height: 50%;
+
+  width: 200px;
+  height: 150px;
 }
 .VrijeTijdimg{
-  margin-right: 10%;
-  width: 50%;
-  height: 50%;
+
+  width: 200px;
+  height: 150px;
+}
+.set:link, .set:visited {
+background-color: #2d4262;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+/* MENU */
+.header{
+  margin-left: 5%;
+  margin-left: 5%;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #66A5AD;
+
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 @media only screen and (min-width: 768px) {
 
@@ -194,6 +264,9 @@ li a:hover {
 
 }
 @media only screen and (min-width: 1200px) {
+  .header{
+    margin-top: 2%;
+  }
   li a{
     width: 200px;
   }
@@ -222,15 +295,17 @@ li a:hover {
     }
 
     #Menu_Page{
-      background-color: #293449;
-
-    }
-    a{
-      color:#ce616e;
+      background-color: #C4DFe6;
 
     }
 
-    }
+
+
+.set:hover, .set:active {
+    background-color: #00f2ff;
+}
+
+
 
     .aboutimg{
       background-image: url(images/Boom.jpg);
@@ -258,7 +333,7 @@ li a:hover {
     }
 
     .Hometext{
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-right: 25%;
+      padding-left: 25%;
 
     }

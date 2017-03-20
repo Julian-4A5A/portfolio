@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="Style.css">
-    <script src="Javascript.js" charset="utf-8"></script>
-  </head>
-  <body>
-  <section class="row">
-      <?php include 'Header.php'; ?>
-
-      </div>
-
 
         <div class="col-7">
           <h2>Contact gegevens</h2>
@@ -26,7 +12,7 @@
 
 
 
-        <div class="col-12">
+        <div class="col-6">
           <form class="MyMailForm" action="" method="post">
               <p><label><b>Naam:</b></label></p>
               <p><input type="text" name="Naam" placeholder="Voor- en achternaam" required></p>
@@ -38,9 +24,6 @@
 
           </form>
         </div>
-        <?php require 'footer.php'; ?>
-</section>
-
-
-  </body>
-</html>
+        <div class="col-6">
+          </div>
+        
