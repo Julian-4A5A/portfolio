@@ -15,6 +15,7 @@ function loadpage(href, callBack){
             }
     function callData(result){
         console.log(result);
+<<<<<<< HEAD
         return document.getElementById( 'base').innerHTML = result.response;
     }
 
@@ -24,4 +25,7 @@ function loadpage(href, callBack){
 
     function goBack() {
       window.history.back();
+=======
+        return document.getElementById( 'content').innerHTML = result.response;
+>>>>>>> origin/master
     }

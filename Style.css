@@ -1,18 +1,22 @@
 
 body{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+ background-color: #f5f5f0;
 }
 * {
     box-sizing: border-box;
 }
-
+.row{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .row::after {
     content: "";
     clear: both;
     display: table;
+
 }
+
 
 .MenuHeadImage{
   border-radius: 50%;
@@ -24,13 +28,16 @@ body{
   text-decoration: none;
 }
 input[type=text], select, textarea {
-  width: 60%; /* Full width */
+  width: 30%; /* Full width */
   padding: 6px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 6px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
+
+}
+#footer{
 
 }
 .button {
@@ -79,14 +86,117 @@ input[type=text], select, textarea {
     float: left;
     padding: 15px;
 }
+.Hometext{
+  text-align: justify;
+  padding-right: 25%;
+  padding-left: 25%;
 
+}
 /* For mobile phones: */
 [class*="col-"] {
-    width: 100%;
+    width: 95%;
     border: solid 1px black;
     text-align: center;
+
+}
+/* link style en talen style*/
+#footer h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+#clock{
+  display: none;
+}
+/* Home afbeeldingen in about projects en contact*/
+.aboutimg{
+  background-image: url(images/Boom.jpg);
+  height: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projectimg{
+  background-image: url(images/Boom.jpg);
+  height: 150px;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactimg{
+  background-image: url(images/Boom.jpg);
+  height: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Meimg{
+  margin-right: 10%;
+  width: 50%;
+  height: 50%;
+}
+.Schoolimg{
+  margin-right: 10%;
+  width: 50%;
+  height: 50%;
+}
+.VrijeTijdimg{
+  margin-right: 10%;
+  width: 50%;
+  height: 50%;
 }
 @media only screen and (min-width: 768px) {
+
+
+}
+@media only screen and (min-width: 992px) {
+
+
+
+}
+@media only screen and (min-width: 1200px) {
+  li a{
+    width: 200px;
+  }
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -110,6 +220,7 @@ input[type=text], select, textarea {
     .base{
       text-align: center;
     }
+
     #Menu_Page{
       background-color: #293449;
 
@@ -120,4 +231,34 @@ input[type=text], select, textarea {
     }
 
     }
-}
+
+    .aboutimg{
+      background-image: url(images/Boom.jpg);
+      height: 174px;
+      width: 300px;
+      margin: 5px;
+      float: left;
+      margin-right: 10%;
+    }
+    .projectimg{
+      background-image: url(images/Boom.jpg);
+      height: 174px;
+      width: 300px;
+      margin: 5px;
+      float: right;
+      margin-left: 10%;
+    }
+    .contactimg{
+      background-image: url(images/Boom.jpg);
+      height: 174px;
+      width: 300px;
+      margin: 5px;
+      float: left;
+      margin-right: 10%;
+    }
+
+    .Hometext{
+      padding-left: 5%;
+      padding-right: 5%;
+
+    }

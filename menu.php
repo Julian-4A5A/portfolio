@@ -81,6 +81,7 @@
         <p>De algemen informatie over mijn contact</p>
 
       </div>
+      
 </section>
 
 

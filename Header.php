@@ -38,6 +38,6 @@
   <div class="col-8">
     <img src="./images/natuur.jpg">
   </div>
-  <div class="col-2" >
+  <div class="col-2" id="clock">
     <p>clock</p>
   </div>
