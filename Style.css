@@ -67,6 +67,14 @@ input[type=text], select, textarea {
     width: auto;
 
 }
+.Text{
+  color: #4d4d4d;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7333;
+  text-align: justify;
+}
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -110,13 +118,6 @@ input[type=text], select, textarea {
       color:#ce616e;
 
     }
-    .Text{
-      color: #4d4d4d;
-      font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
-      font-size: 15px;
-      -webkit-font-smoothing: antialiased;
-      line-height: 1.7333;
-      text-align: justify;
-}
+
     }
 }
