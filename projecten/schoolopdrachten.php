@@ -1,53 +1,45 @@
-
+<div class="col-12">
+  <button class="button" onclick="loadpage('Project.php', callData)"><i class="fa fa-angle-double-left"></i>Terug naar projecten</button>
+</div>
   <div class="col-12">
-      <img src="http://placehold.it/600x400">
+    <h2>html, ccs en javascript</h2>
+      <img class="Image"src="images/htmlcss.png" >
   </div>
 
   <article class="col-6">
-      <h2>html, ccs en javascript</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
-        smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
-        m veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
-        modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu
-        giat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="/schoolo/Schoolo.php?projects=html"></a>
+
+      <p class="Text">In leerjaar 1 begonnen ik met het leren van html css en javascript de basis voor alle websites die er zijn. Ik had al voor kennis want ik had voordat ik naar het hbo zou gaan daar al een beetje meewezen knutselen. 4 dagen per week
+        was ik bezig op school met de html css en javascript. De voorkennis was na een bepaalde tijd weer uitgewerkt.
+
+      </p>
+
           </article>
   <div class="col-6">
-
+    <a class="black" href="https://github.com/Julian-4A5A/htmlcss" target="_blank"><i class="fa fa-github"></i> GitHub</a>
   </div>
 
 
   <div class="col-12">
-    <img src="http://placehold.it/600x400">
+    <h2>Php</h2>
+    <img class="Image" src="images/phplogin.png" >
   </div>
   <article class="col-6">
-    <h2></h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
-      or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptat
-      e velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
-      pidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        <a href="/schoolo/Schoolo.php?projects=php12"></a>
+
+    <p>In leerjaar 1 tweede helf van het jaar begon ik met het leren van php iets nieuws en onbekends.
   </article>
   <div class="col-6">
-
+    <a class="black" href="https://github.com/Julian-4A5A/phpschoolL1enL2/tree/master/L1" target="_blank"><i class="fa fa-github"></i> GitHub</a>
   </div>
 
   <div class="col-12">
-    <img src="http://placehold.it/600x400">
+    <h2>Php</h2>
+    <img class="Image" src="images/phpclass.png" >
   </div>
       <article class="col-6">
-        <h2></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod te
-          mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con
-           sequat. Duis aute irure dolor in reprehend
-          erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu
-          r sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mo
-          llit anim id est laborum.
-        <a href="/schoolo/Schoolo.php?projects=phpschool"></a>
+
+        <p class="Text">Terug van stage gingen we weer verder in op php we begonnen met OOP programming. Tijdens de lessen kreeg ik uitleg en ging het meteen toepassen tot een klein projectje. Bijvoorbeeld bij een Filehandler, DatabaseHandler.</p>
+
     </article>
     <div class="col-6">
-
+        <a class="black" href="https://github.com/Julian-4A5A/School-php"><i class="fa fa-github"></i> GitHub</a>
     </div>

@@ -75,6 +75,14 @@ input[type=text], select, textarea {
     width: auto;
 
 }
+a.black{
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 .Text{
   color: #4d4d4d;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
@@ -266,6 +274,9 @@ display: inline-block;
 @media only screen and (min-width: 1200px) {
   .header{
     margin-top: 2%;
+  }
+  .Image{
+    height: 40%;
   }
   li a{
     width: 200px;
